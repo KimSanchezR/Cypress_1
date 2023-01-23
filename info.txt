@@ -1,0 +1,66 @@
+En este código dentro de test se puede escribir lo siguiente para no tener que darle con cual navegador quiero abrir el test
+y con cual tipo e2e o componente 
+"scripts": {
+    "test": "cypress open --browser chrome --e2e o component" antes estaba echo \"Error: no test specified\" && exit 1
+  },
+
+Comando por Consola 
+
+node_modules\.bin\cypress run + Para correr los test desde consola 
+npx cypress run --headed + Para correr los test desde navegador
+npx cypress run --browser chrome + Para correr los test desde navegador chrome
+npx cypress run --spec "cypress\e2e\Seccion_2\Asserts.cy.js" + Para correr un solo test 
+npx cypress run --spec "cypress\e2e\Seccion_1\*" + Para correr todos los test de una carpeta
+
+
+***** Para buscar por xpath un elemento *****
+
+//span[contains(text(),'k Box')] --- Se busca un span que contenga la palabra k Box
+//span[text()='Check Box'] --- Se busca un span que el texto sea igual a Check Box
+
+
+***** Paginas o comandos *****
+
+https://demo.seleniumeasy.com/
+{force:true}
+
+***** Snippets abrir configuracion *****
+
+Control + P y abre una barra de busqueda 
+Se pone > Snippets: Configure your Snippets y se abre el archivo llamado javascript.json
+
+***** Comandos personalizados *****
+En la Carpeta de support hay un archivo llamado commands.js
+
+
+**** Video desde Cypress ****
+Se crea el video y los screenshots desde cypress con el comando run entonces al correr un test por consola graba y toma captura de todo solo 
+npx cypress run --spec "cypress\e2e\Seccion_6\pageObject_1.cy.js
+
+
+**** Git ****
+git status        Ver que falta de subir 
+git commit -m ""  Subir definitivo lo que haga falta 
+git checkout -- . Para recuperar todo lo que hayan borrado 
+git log           Para ver todo lo que se ha hecho 
+git add NomAr.txt Subir solo 1 archivo 
+git add *.xlsx    Subir todos los archivos de una misma extension 
+git add *.json
+git add .\Evidencias\ Subir una carpeta 
+git reset *.mp4   Para que quite del commit todos los .mp4
+git log --oneline --decorate -- all --graph Subir cosas
+git reflog        Sirve para ver todos los movimientos que se hicieron con el ID 
+git reset --hard #ID Sirve para recuperar los archivos o volver a un commit que hicimos 
+
+El archivo .gitingore es para que ignore ciertos archivos y no los suba 
+
+
+***** ALIAS EN GIT ***** 
+git config --global alias.lg "log --oneline --decorate -- all --graph"   
+git config --global alias.s "status -s -b"
+
+
+***** CUENTA GITHUB ***** 
+kimi_zan15@hotmail.com
+Kira2327.
+KimSanchezR

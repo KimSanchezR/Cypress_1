@@ -1,0 +1,31 @@
+{
+  "name": "training_cypress",
+  "version": "1.0.0",
+  "description": "training de cypres 2022",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open --browser chrome --e2e"
+  },
+  "author": "Kimberly Sanchez Ramirez",
+  "license": "ISC",
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^15.1.0",
+    "cypress-file-upload": "^5.0.8"
+  },
+  "devDependencies": {
+    "@4tw/cypress-drag-drop": "^2.2.2",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.1.5",
+    "cypress": "^12.3.0",
+    "cypress-plugin-tab": "^1.0.5",
+    "cypress-xpath": "^2.0.1",
+    "esbuild": "^0.16.16"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  },
+  "stepDefinitions": [
+    "[filepath]/**/*.{js,ts}",
+    "[filepath].{js,ts}",
+    "cypress/e2e/step_definitions/**/*.{js,ts}"
+  ]
+}

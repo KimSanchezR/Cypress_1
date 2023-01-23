@@ -1,0 +1,8 @@
+[
+    { "nombre": "Kimberly","email": "Kimberly1@gmail.com","dir1": "Dirección uno_1","dir2": "Dirección dos_1"},
+    { "nombre": "Kimberly2","email": "Kimberly2@gmail.com","dir1": "Dirección uno_2","dir2": "Dirección dos_2"},
+    { "nombre": "Kimberly3","email": "Kimberly3@gmail.com","dir1": "Dirección uno_3","dir2": "Dirección dos_3"},
+    { "nombre": "Kimberly4","email": "Kimberly4@gmail.com","dir1": "Dirección uno_4","dir2": "Dirección dos_4"},
+    { "nombre": "Kimberly5","email": "Kimberly5@gmail.com","dir1": "Dirección uno_5","dir2": "Dirección dos_5"}
+    
+]
