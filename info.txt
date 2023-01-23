@@ -52,6 +52,9 @@ git log --oneline --decorate -- all --graph Subir cosas
 git reflog        Sirve para ver todos los movimientos que se hicieron con el ID 
 git reset --hard #ID Sirve para recuperar los archivos o volver a un commit que hicimos 
 
+git push          Sirve para subir los archivos al github 
+git pull          Sirve para ver que actualcie la rama de trabajo actual 
+
 El archivo .gitingore es para que ignore ciertos archivos y no los suba 
 
 
